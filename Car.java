@@ -1,24 +1,9 @@
-class Animal {
-
-    void eat() {
-        System.out.println("Animal is eating");
-    }
-}
-
-class Dog extends Animal {
-
-    void bark() {
-        System.out.println("Dog is barking");
-    }
-}
-
-public class SingleInheritance {
+public class RelationshipDemo {
 
     public static void main(String[] args) {
 
-        Dog d = new Dog();
+        Car car = new Car();
 
-        d.eat();
-        d.bark();
+        car.drive();
     }
 }
